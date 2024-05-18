@@ -1,0 +1,266 @@
+{
+    "buildings": [
+
+        {
+            "id": 0,
+            "name": "Дом Ковыряловой",
+            "image": "/images/kovyryalovoy_fasad.jpg",
+            "imagesqr": "/images/kovyryalovoysqr.JPG",
+            "street": {"name": "Платонова", "link":"#"}, 
+            "architect": {"name":"Замятнин М.Н.", "link":"#"},
+            "year": 1912,
+            "period": "1900-1917",
+            "style": {"name":"Модерн", "link":"/pages/styles/artnouveau.html",             
+             "topdescription": "<h2 class='infotitle'>О стиле</h2><p class='infodescription'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga eligendi ipsam nobis nihil <a href='#'>cumque</a> dolorem commodi placeat consectetur reiciendis alias tempore? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, doloremque fuga totam voluptate architecto quasi corrupti, nobis non nihil, placeat veniam nemo laborum? </p>", "bottomdescription": "<p class='infodescription'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga eligendi ipsam nobis nihil <a href='#'>cumque</a> dolorem commodi placeat consectetur reiciendis alias tempore, eius quis et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga eligendi ipsam nobis nihil <a href='#'>cumque</a> dolorem commodi placeat consectetur reiciendis alias tempore, eius quis et?  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga eligendi ipsam nobis nihil <a href='#'>cumque</a> dolorem commodi placeat consectetur reiciendis alias tempore, eius quis et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga eligendi ipsam nobis nihil <a href='#'>cumque</a> dolorem commodi placeat consectetur reiciendis alias tempore, eius quis et?</p>"},
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga eligendi ipsam nobis nihil cumque dolorem commodi placeat consectetur reiciendis alias tempore, eius quis et?",            
+            "link": "/pages/buildings/domkovyryalovoy.html",
+            "article": "<h3 class='article_subtitle'>История дома</h3> <p class='description'>Большой двухэтажный кирпичный дом сооружен в 1912 г. для мещанки А.П. Ковыряловой. Предназначался для сдачи внаем. В 1920-е гг. здесь находились квартиры жилищного товарищества 'Красный молотобоец' Здание напоминает постройки воронежского архитектора <a href='#'>М.Н. Замятнина</a>. </p> <div class='img_flex'><div class='article__img_box'><img src= '/images/kovyryalovoy_fasad.JPG'> </div><h3 class='img_info'>Фасад дома Ковыряловой</h3></div> <h3 class='article_subtitle'>Архитектурные особенности</h3><p class='description'>В среднем фасаде дома находится арка проезда во двор. Фриз металлических ворот, закрывающих арку, состоит из букв, очевидно, инициалов хозяев. Козырьки над подъездами (два с улицы и четыре со двора) имеют изящные металлические консоли</p> <div class='img_flex'><div class='article__img_box'><img src= '/images/kovyryalovoy_dvor.JPG'> </div><h3 class='img_info'>Двор дома Ковыряловой</h3></div>",
+            "sources": {"source1": "<p>Историко-культурное наследие Воронежа</p>", "source2": "<p>Попов П. Воронеж: история города в названиях улиц</p>"}
+    
+    
+        },
+    
+
+    {
+        "id": 1,
+        "name": "Усадьба Гарденина",
+        "image": "/images/usadbagardenina.jpg",
+        "street": {"name": "Фабричный", "link":"#"},
+        "architect": {"name":"Неизвестен", "link":"#"},
+        "year": 1735,
+        "period": "1700-1750",
+        "style": {"name":"Барокко", "link":"#"},
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga eligendi ipsam nobis nihil cumque dolorem commodi placeat consectetur reiciendis alias tempore, eius quis et?"
+        ,
+        "link": "#"
+
+
+    },
+
+    {
+        "id": 2,
+        "name": "Общежитие духовной семинарии",
+        "image": "/images/obzheshitseminarii.jpg",
+        "street": {"name": "Сакко и Ванцетти", "link":"#"},
+        "architect": {"name":"Баранов А.М.", "link":"#"},
+        "year": 1886,
+        "period": "1850-1900",
+        "style": {"name":"Неорусский стиль", "link":"#"},
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga eligendi ipsam nobis nihil cumque dolorem commodi placeat consectetur reiciendis alias tempore, eius quis et?"
+        ,
+        "link": "#"
+
+
+    },
+
+    {
+        "id": 3,
+        "name": "Школа кантонистов",
+        "image": "/images/shkolacantonistov.jpeg",
+        "street": {"name": "Сакко и Ванцетти", "link":"#"},
+        "architect": {"name":"Неизвестен", "link":"#"},
+        "year": 1819,
+        "period": "1800-1850",
+        "style": {"name":"Классицизм", "link":"/pages/styles/classic.html"},
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga eligendi ipsam nobis nihil cumque dolorem commodi placeat consectetur reiciendis alias tempore, eius quis et?"
+        ,
+        "link": "#"
+
+
+    },
+
+    {
+        "id": 4,
+        "name": "Дом Мануйлова",
+        "image": "/images/Dom-Manuylova.jpg",
+        "street":  {"name": "Дзержинского", "link":"#"},
+        "architect": {"name":"Неизвестен", "link":"#"},
+        "year": 1914,
+        "period": "1900-1917",
+        "style": {"name":"Модерн", "link":"/pages/styles/artnouveau.html"},
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga eligendi ipsam nobis nihil cumque dolorem commodi placeat consectetur reiciendis alias tempore, eius quis et?"
+        ,
+        "link": "#"
+        
+
+
+    },
+
+    {
+        "id": 5,
+        "name": "Дом Березникова",
+        "image": "/images/dombereznikova.jpg",
+        "street": {"name": "Пятницкого", "link":"#"},
+        "architect": {"name":"Неизвестен", "link":"#"},
+        "year": 1914,
+        "period": "1900-1918",
+        "style": {"name":"Модерн", "link":"/pages/styles/artnouveau.html" },
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga eligendi ipsam nobis nihil cumque dolorem commodi placeat consectetur reiciendis alias tempore, eius quis et?"
+        ,
+        "link": "#"
+
+
+    },
+
+    
+
+    {
+        "id": 6,
+        "name": "Гостиница 'Центральная'",
+        "image": "/images/gostzentralnaya.jpg",
+        "street": {"name": "Революции пр.", "link":"#"},
+        "architect": {"name":"Неизвестен", "link":"#"},
+        "year": 1880,
+        "period": "1850-1900",
+        "style": {"name":"Эклектика", "link":"/pages/styles/eclectic.html"},
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga eligendi ipsam nobis nihil cumque dolorem commodi placeat consectetur reiciendis alias tempore, eius quis et?"
+        ,
+        "link": "#"
+
+
+    },
+
+    {
+        "id": 7,
+        "name": "Швейная мастерская",
+        "image": "/images/shveynayamasterskaya.jpg",
+        "street": {"name": "Кости Стрелюка", "link":"#"},
+        "architect": {"name":"Баранов А.М.", "link":"#"},
+        "year": 1883,
+        "period": "1850-1900",
+        "style": {"name":"Эклектика", "link":"/pages/styles/eclectic.html"},
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga eligendi ipsam nobis nihil cumque dolorem commodi placeat consectetur reiciendis alias tempore, eius quis et?",
+        "link": "#"
+
+
+    },
+
+    {
+        "id": 8,
+        "name": "Дом Савостьянова",
+        "image": "/images/domsavostyanova.jpg",
+        "street": {"name": "Плехановская", "link":"#"}, 
+        "architect": {"name":"Неизвестен", "link":"#"},
+        "year": 1773,
+        "period": "1750-1800",
+        "style": {"name":"Барокко", "link":"#"},
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga eligendi ipsam nobis nihil cumque dolorem commodi placeat consectetur reiciendis alias tempore, eius quis et?"
+        ,
+        "link": "#"
+
+
+    },
+
+    {
+        "id": 9,
+        "name": "Дом Кораблинова",
+        "image": "/images/domkorablinova.jpg",
+        "street": {"name": "Сиреневая", "link":"#"},
+        "architect": {"name":"Неизвестен", "link":"#"},
+        "year": 1909,
+        "period": "1900-1917",
+        "style": {"name":"Эклектика", "link":"/pages/styles/eclectic.html"},
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga eligendi ipsam nobis nihil cumque dolorem commodi placeat consectetur reiciendis alias tempore, eius quis et?"
+        ,
+        "link": "#"
+
+
+    },
+
+    {
+        "id": 10,
+        "name": "Дом Аристовых",
+        "image": "/images/domaristovyh.jpg",
+        "street": {"name": "Сакко и Ванцетти", "link":"#"},
+        "architect": {"name":"Неизвестен", "link":"#"},
+        "year": 1810,
+        "period": "1800-1850",
+        "style": {"name":"Классицизм", "link":"#"},
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga eligendi ipsam nobis nihil cumque dolorem commodi placeat consectetur reiciendis alias tempore, eius quis et?"
+        ,
+        "link": "#"
+
+
+    },
+
+    {
+        "id": 11,
+        "name": "Дом Замятнина",
+        "image": "/images/domzamyatnina.jpg",
+        "street": {"name": "Алексеевского", "link":"#"},
+        "architect": {"name":"Замятнин М.Н.", "link":"/pages/architects/zamyatnin.html"},
+        "year": 1913,
+        "period": "1900-1917",
+        "style": {"name":"Модерн", "link":"/pages/styles/artnouveau.html"},
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga eligendi ipsam nobis nihil cumque dolorem commodi placeat consectetur reiciendis alias tempore, eius quis et?"
+        ,
+        "link": "#"
+
+
+    },
+
+    {
+        "id": 12,
+        "name": "Дом Бютнер",
+        "image": "/images/dombutner.jpg",
+        "street": {"name": "Большая Манежная", "link":"#"},
+        "architect": {"name":"Михайлов Н.", "link":"#"},
+        "year": 1911,
+        "period": "1900-1917",
+        "style": {"name":"Модерн", "link":"/pages/styles/artnouveau.html"},
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga eligendi ipsam nobis nihil cumque dolorem commodi placeat consectetur reiciendis alias tempore, eius quis et?"
+        ,
+        "link": "#"
+
+
+    },
+
+
+    {
+        "id": 13,
+        "name": "Казарма Смоленского пехотного полка",
+        "image": "/images/kazarmasmolensk.jpg",
+        "street": {"name": "Большая Манежная", "link":"#"},
+        "architect": {"name":"Замятнин М.Н.", "link":"/pages/architects/zamyatnin.html"},
+        "year": 1912,
+        "period": "1900-1917",
+        "style": {"name":"Модерн", "link":"/pages/styles/artnouveau.html"},
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga eligendi ipsam nobis nihil cumque dolorem commodi placeat consectetur reiciendis alias tempore, eius quis et?"
+        ,
+        "link": "#"
+
+
+    },
+
+    {
+        "id": 14,
+        "name": "Дом Штемпеля",
+        "image": "/images/domshtempelya.jpg",
+        "street": {"name": "Театральная", "link":"#"},
+        "architect": {"name":"Медведев П.И.", "link":"#"},
+        "year": 1911,
+        "period": "1900-1917",
+        "style": {"name":"Модерн", "link":"/pages/styles/artnouveau.html"},
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga eligendi ipsam nobis nihil cumque dolorem commodi placeat consectetur reiciendis alias tempore, eius quis et?"
+        ,
+        "link": "#"
+
+
+    },
+
+    {
+        "id": 15,
+        "name": "Дом Земсковых",
+        "image": "/images/domzemskovyh.jpeg",
+        "street": {"name": "Революции пр.", "link":"#"},
+        "architect": {"name":"Земсков М.Е.", "link":"#"},
+        "year": 1888,
+        "period": "1850-1900",
+        "style": {"name":"Неорусский стиль", "link":"#"},
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga eligendi ipsam nobis nihil cumque dolorem commodi placeat consectetur reiciendis alias tempore, eius quis et?"
+        ,
+        "link": "#"
+
+
+    }
+]}

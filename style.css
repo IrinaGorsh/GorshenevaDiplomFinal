@@ -1,0 +1,660 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  margin-bottom: 46px;
+}
+
+
+
+label {
+  font-family: Bitter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(136, 140, 148);
+  letter-spacing: 1%;
+}
+
+.top_menu, .top_navigation, .main_menu, .mainbox, .footerbox {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Стили хэдера */
+.top_navigation, .main_menu {
+  height: 56px;
+  gap: 40px;
+  color: rgb(50, 46, 41);
+  font-family: Bitter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  
+}
+
+.logo__box {
+  height: 40px;
+}
+
+.about__project {
+  width: 60px;
+}
+.top_menu {
+  justify-content: space-between;
+}
+
+.main_menu {
+  justify-content: center;
+}
+
+.menubox {
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+.select_box {
+  position: absolute; 
+  left: 300px;
+ 
+}
+
+select#sortOptions {
+  height: 46px;
+  width: 695px;
+  border: 1px solid rgb(211, 165, 98);
+  border-radius: 50px; 
+  padding-left: 15px;
+  appearance: none;
+  font-family: Bitter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(136, 140, 148);
+  letter-spacing: 1%;
+
+}
+
+select#sortOptions:focus {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid rgb(211, 165, 98); 
+}
+.select-side {
+  pointer-events: none;  
+  width: 40px;
+  position: absolute;
+  top: 0px;
+  height: 45px;
+  left: 655px;
+  border-radius: 50px;
+  border-right: 1px solid rgb(211, 165, 98);
+  border-top: 1px solid c;
+  ;
+
+  
+}
+
+.select-side::before {
+  
+    content : "";
+    position: absolute;
+    left    : 0;
+    bottom  : 0;
+    height  : 46px;
+    width   : 1px;  /* or 100px */
+}
+
+
+.fa-solid  {
+  position: absolute;
+  left: 20%;
+  top: 16px;
+}
+
+.gold {
+  color:rgb(211, 165, 98)
+}
+
+.logo_img {
+  color: rgb(211, 165, 98);
+}
+
+.container {
+  max-width: 1182px;
+  margin: 0 auto;
+}
+
+
+
+
+.banner {
+   margin-bottom: 92px;
+}
+
+.bannerbox {
+ 
+  background-image: url("./images/banner.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 216px;
+  padding-left: 64px;
+  padding-bottom: 148px;
+  
+  
+}
+
+.banner__title_box {
+  width: 341px;
+  
+   
+}
+
+.banner__title {
+  color: rgb(248, 246, 243);
+  font-family: Bitter;
+  text-align: left;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+
+}
+
+
+.banner__subtitle {
+  color: rgb(218, 216, 213);
+  font-family: Bitter;
+  font-family: Bitter;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 1%;
+text-align: left;
+  
+  }
+
+
+/*Стили раздела "Новые статьи"*/
+.content__title {
+  color: rgb(50, 46, 41);
+font-family: Montserrat;
+font-size: 32px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 2%;
+text-align: left;
+text-transform: uppercase;
+}
+
+.latest_articles {
+  margin-bottom: 64px;
+}
+
+.latest {
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 40px;    
+}
+
+
+.content__title, .name 
+{ 
+color: rgb(50, 46, 41);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 2%;
+text-align: left;
+text-transform: uppercase;
+}
+
+.contenttitle {
+  margin-bottom: 40px;
+}
+
+.content__title {
+  text-align: center;
+  font-size: 24px;
+}
+
+.maindata {
+  color: rgb(50, 46, 41);
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 2%;
+text-align: left;
+text-transform: uppercase;
+}
+
+.description, .infodescription {
+color: rgb(50, 46, 41);
+font-family: Bitter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 1%;
+text-align: left;
+margin-bottom: 15px;
+
+}
+
+.content {
+  margin-bottom: 128px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-bottom: solid 1px rgb(136, 140, 148);
+  align-items: flex-end;
+}
+
+.building_data  {
+  width: 190px;
+}
+
+.building_info, .desc_link {
+  
+  display: flex;
+  flex-direction: row; 
+  gap: 10px; 
+  
+ 
+}
+
+.desc_link {
+  align-items: center;
+}
+
+.building_img {
+width: 380px;
+}
+
+.description {
+  
+}
+.street, .style, .architect, .year, .infotitle {
+  color: rgb(50, 46, 41);
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 2%;
+text-align: left;
+text-transform: uppercase;
+}
+
+.link {
+ 
+padding: 12px 24px 12px 24px;
+border-radius: 50px;
+background: rgb(211, 165, 98);
+color: rgb(255, 255, 255);
+font-family: Bitter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 1%;
+text-align: left;
+}
+
+.link:hover {
+  border: solid 1px rgb(211, 165, 98);
+  background: rgb(255, 255, 255);
+  color: rgb(211, 165, 98);
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 120px 32px;
+  
+}
+
+.link_box {
+  height: 228px;
+  position: relative;
+}
+
+.link_box:hover img {
+  filter: brightness(50%);
+
+}
+
+
+.category_title {
+  margin-top: 16px;
+  margin-bottom: 12px;
+  border-bottom: solid 1px rgb(136, 140, 148);
+  color: rgb(50, 46, 41);
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 2%;
+text-align: center;
+text-transform: uppercase;
+}
+
+.selected_buildings {
+  margin-bottom: 64px;
+}
+
+.buildings {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 40px;
+    margin-bottom: 60px;
+  }
+  
+  
+
+  
+  .map_info {
+    margin-bottom: 64px;
+  }
+  
+  .mapinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    
+  }
+  
+  
+
+  .info {
+   
+    display: grid;
+    grid-template-columns: repeat(2, 265px);
+    grid-template-rows: repeat(2, 265px);
+    gap: 20px;
+    padding: 20px 20px 20px 20px;
+    border: solid 1px rgb(136, 140, 148);
+  }
+ 
+
+  .info_bottom {
+    grid-column: 1/3;
+  }
+
+
+
+  .sorting {
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    margin-bottom: 48px;
+  }
+
+  .sortBtn {
+    position: absolute;
+    left: 1010px;
+    background: rgb(211, 165, 98);
+    padding: 13px 24px 13px 24px;
+    border: none ;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Bitter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1%;
+  }
+
+  .sortBtn:hover {
+    border: 1px solid rgb(211, 165, 98);
+    background: rgb(255, 255, 255) ;
+    color:  rgb(211, 165, 98);
+  }  
+
+
+
+  .pagination {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    outline: 1px solid rgb(211, 165, 98);
+    border-radius: 1px;
+    color:  rgb(211, 165, 98);
+    
+  }
+  
+  .hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+  
+  .pagination button.active {
+    background-color: rgb(211, 165, 98);
+    color: white;
+    border: none;
+    outline: none;
+  }
+  /*Стили страницы с описанием здания*/
+
+  .maininfo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+ .building__card {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-bottom: 40px;
+ }
+
+ .img_flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .article__img_box {
+  width: 587px;
+  height: 395px; 
+ }
+
+ .buildinginfo_box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ }
+
+ .text__box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ }
+
+ .article_subtitle {
+  color: rgb(50, 46, 41);
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 2%;
+text-align: center;
+text-transform: uppercase;
+ }
+
+ .img_info {
+  color: rgb(50, 46, 41);
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 2%;
+text-align: center;
+ }
+
+ .addinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
+
+ .sources {
+  gap: 10px;
+ }
+
+ .location {
+  position: absolute;
+  top: 160px;
+  right: 70px;
+ }
+
+ 
+
+  /*Стили футера*/
+
+  .footerbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+   .logo__box_footer {
+    height: 56px;
+    width: 60px;
+  }
+
+  .footer__top  {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+  }
+
+  .footer__bottom {
+  display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: end;
+  }
+
+  .contacts__box {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+   
+  .contacts {    
+    color: rgb(50, 46, 41);
+    font-family: Bitter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .footer_navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-bottom: 95px;
+    color: rgb(50, 46, 41);
+font-family: Bitter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+  }
+
+  .footer_networks {
+    display: flex;
+    flex-direction: column;    
+    color: rgb(50, 46, 41);
+font-family: Bitter;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+  }
+
+  .title_networks {
+  
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    
+    }
+
+  .network_icons {
+   display: flex;
+   flex-direction: row;
+   gap: 26px;
+   margin-top: 40px;
+  }
+
+  svg:hover {    
+    fill: white;
+    background: rgb(211, 165, 98);
+  }
+
+  
+    
+  

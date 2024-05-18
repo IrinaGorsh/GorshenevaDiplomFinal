@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Карта</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--
+        Укажите свой API-ключ. Тестовый ключ НЕ БУДЕТ работать на других сайтах.
+        Получить ключ можно в Кабинете разработчика: https://developer.tech.yandex.ru/keys/
+    -->
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru-RU&amp;apikey=b8838d7a-c64f-49b4-b562-adfde272215c" type="text/javascript"></script>
+    <script src="https://yandex.st/jquery/2.2.3/jquery.min.js" type="text/javascript"></script>
+    <script src="/scripts/map.js" type="text/javascript"></script>
+	<style>
+         #map {
+            width: 700px; height: 700px; margin-bottom: 64px;
+        }
+        a {
+            color: #04b; /* Цвет ссылки */
+            text-decoration: none; /* Убираем подчеркивание у ссылок */
+        }
+        a:visited {
+            color: #04b; /* Цвет посещённой ссылки */
+        }
+        a:hover {
+            color: #f50000; /* Цвет ссылки при наведении на нее курсора мыши */
+        }
+    </style>
+   <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+     <!--Страница с картой-->
+    <header>
+        <div class="container">
+            <div class="top_menu">
+                <nav class="top_navigation">                    
+                    <a href="#" >
+                        <div class="logo">
+                            <div class="logo__box">
+                                <img src="/images\logo.png" alt="logo">
+                            
+                               </div>
+                               <p class="about__project">О сайте</p>
+                        </div>                
+               </a>    
+                    <a href="#">Контакты</a>
+                </nav>
+                <nav class="top_navigation">
+                    <a href="#">Регистрация</a>
+                    <a href="#">Вход</a>
+                </nav>
+            </div>
+        </div>
+<div class="container">
+    <nav class="main_menu">
+        <a href="/index.html">Главная</a>
+        <a href="/pages/categories/map.html">Карта</a>
+        <a href="/pages/categories/streets.html">Улицы</a>
+        <a href="/pages/categories/architects.html">Архитекторы</a>
+        <a href="/pages/categories/styles.html">Стили</a>
+        <a href="#">Период</a>       
+    </nav>
+</div>
+    </header>
+    <section class="content">
+        <div id="map" class="container"></div>
+    </section>
+    
+    
+
+    <footer>
+        <div class="container footerbox">
+
+            <div class="footer__top">
+                <a href="#" class="logo__link">
+                    
+                    <div class="logo__box_footer">
+                        <img src="/images\logo.png" alt="logo">
+                    
+                       </div>
+                       
+                            
+       </a>    
+<div>
+    
+    <nav class="footer_navigation">
+        <a href="#">
+            
+            
+            О сайте</a>
+        <a href="#">Контакты</a>
+        <a href="#">Регистрация</a>
+    </nav>
+    
+</div>
+      
+            </div>
+
+            <div class="footer__bottom">
+                
+                    <ul class="contacts">
+                        <li>Воронеж</li>
+                        <li>+79601343693</li>
+                        <li>gorshenevairina@gmail.com</li>
+                                      </ul>
+               
+               
+                    
+                                <nav class="footer_networks">
+                                    <p class="title_networks">Мы в соцсетях</p>
+                                    <div class="network_icons" >
+                                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="36" height="36" viewBox="0 0 30 30" fill="rgb(211, 165, 98)">
+                                            <path d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M21.361,18.967 l-1.868,0.026c0,0-0.403,0.079-0.93-0.285c-0.699-0.48-1.358-1.729-1.872-1.567c-0.521,0.166-0.505,1.29-0.505,1.29 s0.004,0.198-0.115,0.327c-0.129,0.139-0.382,0.125-0.382,0.125h-0.837c0,0-1.846,0.153-3.473-1.543 c-1.772-1.849-3.338-5.498-3.338-5.498s-0.092-0.23,0.006-0.348c0.111-0.13,0.41-0.134,0.41-0.134l2-0.01 c0,0,0.188,0.033,0.324,0.133c0.111,0.082,0.174,0.236,0.174,0.236s0.323,0.819,0.752,1.561c0.836,1.446,1.224,1.763,1.508,1.608 c0.414-0.226,0.29-2.044,0.29-2.044s0.008-0.66-0.208-0.954c-0.168-0.229-0.484-0.297-0.622-0.314 c-0.113-0.015,0.071-0.277,0.311-0.395c0.36-0.176,0.996-0.186,1.747-0.179c0.585,0.006,0.754,0.042,0.982,0.098 c0.69,0.167,0.456,0.811,0.456,2.356c0,0.495-0.089,1.191,0.267,1.42c0.154,0.099,0.529,0.015,1.464-1.579 c0.445-0.756,0.778-1.644,0.778-1.644s0.073-0.158,0.186-0.226c0.116-0.07,0.272-0.048,0.272-0.048l2.105-0.013 c0,0,0.632-0.076,0.735,0.211c0.108,0.3-0.236,1.001-1.096,2.148c-1.412,1.884-1.569,1.709-0.396,2.799 c1.12,1.041,1.351,1.547,1.39,1.611C22.339,18.906,21.361,18.967,21.361,18.967z"></path>
+                                        </svg></a>
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="36" height="36" viewBox="0 0 50 50" fill="rgb(211, 165, 98)">
+                                                <path d="M46.894 23.986c.004 0 .007 0 .011 0 .279 0 .545-.117.734-.322.192-.208.287-.487.262-.769C46.897 11.852 38.154 3.106 27.11 2.1c-.28-.022-.562.069-.77.262-.208.192-.324.463-.321.746C26.193 17.784 28.129 23.781 46.894 23.986zM46.894 26.014c-18.765.205-20.7 6.202-20.874 20.878-.003.283.113.554.321.746.186.171.429.266.679.266.03 0 .061-.001.091-.004 11.044-1.006 19.787-9.751 20.79-20.795.025-.282-.069-.561-.262-.769C47.446 26.128 47.177 26.025 46.894 26.014zM22.823 2.105C11.814 3.14 3.099 11.884 2.1 22.897c-.025.282.069.561.262.769.189.205.456.321.734.321.004 0 .008 0 .012 0 18.703-.215 20.634-6.209 20.81-20.875.003-.283-.114-.555-.322-.747C23.386 2.173 23.105 2.079 22.823 2.105zM3.107 26.013c-.311-.035-.555.113-.746.321-.192.208-.287.487-.262.769.999 11.013 9.715 19.757 20.724 20.792.031.003.063.004.094.004.25 0 .492-.094.678-.265.208-.192.325-.464.322-.747C23.741 32.222 21.811 26.228 3.107 26.013z"></path>
+                                                </svg>
+                                        </a>
+                                        
+                                    </div>
+                                    
+                                </nav>
+            </div>
+            
+             
+        </div>
+    </footer>
+</body>
+</html>

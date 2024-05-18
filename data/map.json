@@ -1,0 +1,21 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {"type": "Feature", "id": 0, "geometry": {"type": "Point", "coordinates": [51.667931, 39.215352]}, "properties": {"balloonContentHeader": "<font size=3><b>Дом Березникова</b></font>",  "balloonContentBody": " <a href='#'>Подробнее</a>"}, "tags": {"style": "модерн", "architect": "Неизвестен"}, "options": {"preset": "islands#blueCircleDotIconWithCaption"}},
+        {"type": "Feature", "id": 1, "geometry": {"type": "Point", "coordinates": [51.671217, 39.214021]}, "properties": {"balloonContentHeader": "<font size=3><b>Усадьба Гарденина</b></font>",  "balloonContentBody": " <a href='#'>Подробнее</a>"}, "tags": {"style": "барокко", "architect": "Неизвестен"}, "options": {"preset": "islands#blueCircleDotIconWithCaption"}},
+
+        {"type": "Feature", "id": 2, "geometry": {"type": "Point", "coordinates": [51.676981, 39.217568]}, "properties": {"balloonContentHeader": "<font size=3><b>Общежитие духовной семинарии</b></font>",  "balloonContentBody": " <a href='#'>Подробнее</a>"}, "tags": {"style": "неорусский стиль", "architect": "Баранов А.М."}, "options": {"preset": "islands#blueCircleDotIconWithCaption"}},
+
+        {"type": "Feature", "id": 3, "geometry": {"type": "Point", "coordinates": [51.678186, 39.218298]}, "properties": {"balloonContentHeader": "<font size=3><b>Школа кантонистов</b></font>",  "balloonContentBody": " <a href='#'>Подробнее</a>"}, "tags": {"style": "классицизм", "architect": "Неизвестен"}, "options": {"preset": "islands#blueCircleDotIconWithCaption"}},
+
+        {"type": "Feature", "id": 4, "geometry": {"type": "Point", "coordinates": [51.665015, 39.209769]}, "properties": {"balloonContentHeader": "<font size=3><b>Дом Замятнина</b></font>",  "balloonContentBody": " <a href='#'>Подробнее</a>"}, "tags": {"style": "модерн", "architect": "Замятнин М.Н."}, "options": {"preset": "islands#blueCircleDotIconWithCaption"}},
+
+        {"type": "Feature", "id": 5, "geometry": {"type": "Point", "coordinates": [51.658931, 39.199766]}, "properties": {"balloonContentHeader": "<font size=3><b>Дом Ковыряловой</b></font>",  "balloonContentBody": " <a href='/pages/buildings/domkovyryalovoy.html'>Подробнее</a>"}, "tags": {"style": "модерн", "architect": "Замятнин М.Н."}, "options": {"preset": "islands#blueCircleDotIconWithCaption"}}
+
+
+
+       
+       
+        
+    ]
+}

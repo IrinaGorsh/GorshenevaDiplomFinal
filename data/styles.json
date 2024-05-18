@@ -1,0 +1,8 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {"type": "Feature", "id": 0, "geometry": {"type": "Point", "coordinates": [51.667931, 39.215352]}, "properties": {"balloonContent": "модерн","balloonContentHeader": "<font size=3><b>Дом Березникова</b></font>",  "balloonContentBody": " <a href='dombereznikova.html'>Подробнее</a>"}, "options": {"preset": "islands#blueCircleDotIconWithCaption"}, "tags": {"style": "модерн", "architect": "Неизвестен"} },
+        {"type": "Feature", "id": 1, "geometry": {"type": "Point", "coordinates": [51.671217, 39.214021]}, "properties": {"balloonContent": "барокко","balloonContentHeader": "<font size=3><b>Усадьба Гарденина</b></font>",  "balloonContentBody": " <a href='dombereznikova.html'>Подробнее</a>"}, "options":{"preset": "islands#blueCircleDotIconWithCaption"}, "tags": {"style": "барокко", "architect": "Неизвестен"}}
+       
+    ]
+}
